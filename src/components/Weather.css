@@ -1,0 +1,99 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 18px red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+.search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+.weather-icon {
+    width: 130px;
+    margin: 10px 0;
+}
+.temperature {
+    color: #fff;
+    font-size: 70px;
+    line-height: 1;
+}
+.location {
+    color: #fff;
+    font-size: 30px;  
+}
+.weather-data {
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+.weather-data .col span {
+    display: block;
+    font-size: 16px;
+}
+.weather-data .col img {
+    width: 26px;
+    margin-top: 10px;
+}
+.forecast {
+    margin-top: 20px;
+}
+.forecast-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.forecast-day {
+    text-align: center;
+}
+.iconSize {
+    width: 70px;
+}
+.current-weather {
+    display: grid;
+}
+.current-weather img, p {
+    place-self: center;
+}
+.suggestion-list-container{
+    /* style={{backgroundColor: "white", borderRadius: "6px", width: "372px", boxShadow : "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)", marginTop : "5px"}} */
+    background-color: white;
+    border-radius: 6px;
+    width: 372px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+}
+.highlight{
+    color: blue;
+}
